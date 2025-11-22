@@ -9,7 +9,7 @@ function Navbar() {
     <nav>
       <div>
         <img src="/images/logo.svg" alt="logo" />
-        <p className="font-bold">Portafolio de Gael</p>
+        <p className="font-bold">Escritorio</p>
         <ul>
           {navLinks.map(({ id, name }) => (
             <li key={id}>
