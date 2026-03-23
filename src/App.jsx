@@ -1,4 +1,4 @@
-import { Terminal, Safari, Resume } from "@windows";
+import { Terminal, Safari, Resume, Finder } from "@windows";
 import { Navbar, Welcome, Dock } from "./components";
 
 import gsap from "gsap";
@@ -15,6 +15,7 @@ function App() {
       <Terminal />
       <Safari />
       <Resume />
+      <Finder />
     </main>
   );
 }
