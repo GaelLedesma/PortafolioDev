@@ -1,4 +1,12 @@
-import { Terminal, Safari, Resume, Finder, Text, ImageV } from "@windows";
+import {
+  Terminal,
+  Safari,
+  Resume,
+  Finder,
+  Text,
+  ImageV,
+  Contact,
+} from "@windows";
 import { Navbar, Welcome, Dock } from "./components";
 
 import gsap from "gsap";
@@ -18,6 +26,7 @@ function App() {
       <Finder />
       <Text />
       <ImageV />
+      <Contact />
     </main>
   );
 }

@@ -4,9 +4,12 @@ dayjs.locale("es");
 
 import { navIcons, navLinks } from "@constants";
 import useWindowStore from "@store/window";
+import useLocationStore from "@store/location";
+import { locations } from "@constants";
 
 function Navbar() {
   const { openWindow } = useWindowStore();
+  const { setActiveLocation } = useLocationStore();
 
   return (
     <nav>
@@ -19,6 +22,10 @@ function Navbar() {
               key={id}
               onClick={() => {
                 openWindow(type);
+
+                if (type === "finder") {
+                  setActiveLocation(locations.work);
+                }
               }}
             >
               <p>{name}</p>

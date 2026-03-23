@@ -44,7 +44,7 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articulos", // was "Safari"
+    name: "Paginas", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
@@ -218,7 +218,7 @@ export {
 const WORK_LOCATION = {
   id: 1,
   type: "work",
-  name: "Work",
+  name: "Trabajos",
   icon: "/icons/work.svg",
   kind: "folder",
   children: [
@@ -316,15 +316,15 @@ const WORK_LOCATION = {
           position: "top-52 left-80",
           imageUrl: "/images/project-2.png",
         },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 left-5",
-        },
+        // {
+        //   id: 5,
+        //   name: "Design.fig",
+        //   icon: "/images/plain.png",
+        //   kind: "file",
+        //   fileType: "fig",
+        //   href: "https://google.com",
+        //   position: "top-60 left-5",
+        // },
       ],
     },
 
@@ -369,15 +369,15 @@ const WORK_LOCATION = {
           position: "top-52 right-80",
           imageUrl: "/images/project-3.png",
         },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
-        },
+        // {
+        //   id: 5,
+        //   name: "Design.fig",
+        //   icon: "/images/plain.png",
+        //   kind: "file",
+        //   fileType: "fig",
+        //   href: "https://google.com",
+        //   position: "top-60 right-20",
+        // },
       ],
     },
   ],
@@ -386,18 +386,18 @@ const WORK_LOCATION = {
 const ABOUT_LOCATION = {
   id: 2,
   type: "about",
-  name: "About me",
+  name: "Acerca de mi",
   icon: "/icons/info.svg",
   kind: "folder",
   children: [
     {
       id: 1,
-      name: "me.png",
+      name: "yo.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/gael.jpeg",
     },
     {
       id: 2,
@@ -419,18 +419,18 @@ const ABOUT_LOCATION = {
     },
     {
       id: 4,
-      name: "about-me.txt",
+      name: "Acerca-de-mi.txt",
       icon: "/images/txt.png",
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
-      subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      subtitle: "Conoce al desarrollador detrás del código",
+      image: "/images/gael.jpeg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "¡Hola! Soy Gael 👋, desarrollador web enfocado en crear sitios modernos y funcionales.",
+        "Trabajo con JavaScript, React y Next.js, priorizando rendimiento y buena experiencia de usuario.",
+        "Me gusta mantener interfaces limpias y código claro.",
+        "Fuera del desarrollo, me encontrarás ajustando detalles, tomando café o probando nuevos gadgets 😅",
       ],
     },
   ],
@@ -439,13 +439,13 @@ const ABOUT_LOCATION = {
 const RESUME_LOCATION = {
   id: 3,
   type: "resume",
-  name: "Resume",
+  name: "Curriculum",
   icon: "/icons/file.svg",
   kind: "folder",
   children: [
     {
       id: 1,
-      name: "Resume.pdf",
+      name: "CV_Gael.pdf",
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
@@ -458,7 +458,7 @@ const RESUME_LOCATION = {
 const TRASH_LOCATION = {
   id: 4,
   type: "trash",
-  name: "Trash",
+  name: "Basura",
   icon: "/icons/trash.svg",
   kind: "folder",
   children: [
