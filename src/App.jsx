@@ -1,13 +1,13 @@
 import {
-  Terminal,
   Safari,
   Resume,
   Finder,
   Text,
   ImageV,
   Contact,
+  TerminalV,
 } from "@windows";
-import { Navbar, Welcome, Dock } from "./components";
+import { Navbar, Welcome, Dock, Home } from "./components";
 
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
@@ -20,13 +20,14 @@ function App() {
       <Welcome />
       <Dock />
 
-      <Terminal />
+      <TerminalV />
       <Safari />
       <Resume />
       <Finder />
       <Text />
       <ImageV />
       <Contact />
+      <Home />
     </main>
   );
 }

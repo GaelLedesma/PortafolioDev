@@ -102,7 +102,11 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    items: ["React", "Astro", "JavaScript", "TypeScript", "SPA"],
+  },
+  {
+    category: "Backend",
+    items: ["Node.js", "Express", ".NET (C#)", "NestJS", "APIs REST"],
   },
   {
     category: "Mobile",
@@ -110,19 +114,31 @@ const techStack = [
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "CSS", "Sass"],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    category: "Bases de Datos",
+    items: ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
   },
   {
-    category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    category: "DevOps & Cloud",
+    items: ["Docker", "AWS", "Kubernetes (Básico)"],
   },
   {
-    category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    category: "Automatización & IA",
+    items: ["n8n", "Chatbots", "APIs de IA", "Automatización de flujos"],
+  },
+  {
+    category: "Ciencia de Datos",
+    items: ["Python", "Pandas"],
+  },
+  {
+    category: "Herramientas",
+    items: ["Git", "GitHub", "Postman", "Excel", "Power BI"],
+  },
+  {
+    category: "Sistemas & Redes",
+    items: ["Linux (Ubuntu)", "macOS", "Windows", "VLANs", "Redes básicas"],
   },
 ];
 
@@ -132,7 +148,7 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/GaelLedesma",
   },
   {
     id: 2,
@@ -140,13 +156,6 @@ const socials = [
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
     link: "https://jsmastery.com/",
-  },
-  {
-    id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
   },
   {
     id: 4,

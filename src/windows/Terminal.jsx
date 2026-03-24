@@ -37,10 +37,8 @@ function Terminal() {
           ))}
         </ul>
         <div className="footnote">
-          <p>
-            <Check size={20} /> 5 de 5 stacks cargados satisfactoriamente (100%)
-          </p>
-
+          <Check size={20} /> {techStack.length} de {techStack.length} stacks
+          cargados satisfactoriamente (100%)
           <p className="text-black">
             <Flag size={15} fill="black" /> Tiempo de carga: 6ms
           </p>
@@ -51,4 +49,4 @@ function Terminal() {
 }
 const TerminalWindow = WindowWrapper(Terminal, "terminal");
 
-export { TerminalWindow as Terminal };
+export default TerminalWindow;
