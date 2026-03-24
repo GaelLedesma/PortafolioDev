@@ -15,7 +15,7 @@ const Home = () => {
     openWindow("finder");
   };
   useGSAP(() => {
-    Draggable.create("folder");
+    Draggable.create(".folder");
   }, []);
   return (
     <section id="home">
